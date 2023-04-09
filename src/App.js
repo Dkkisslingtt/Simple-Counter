@@ -4,6 +4,8 @@ import Boton from './componentes/Boton.js';
 import Contador from './componentes/Contador.js';
 import {useState} from 'react';
 
+console.log("hello word")
+
 function App() {
   
   const [numClicks, setNumClicks] = useState(0);
